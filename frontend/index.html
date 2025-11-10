@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- For better fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Planner App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header style="text-align:center;"><b>Travel Planner App</b></header>
+
+  <main>
+    <!-- Trip Form -->
+    <section id="form-section">
+      <form id="tripForm">
+        <br>
+        <input type="text" id="destination" placeholder="Destination" required />
+        <!-- <input type="date" id="start" required />
+        <input type="date" id="end" required /> -->
+        <label>Start Date:</label>
+        <input type="date" id="start" required />
+
+        <label>End Date:</label>
+        <input type="date" id="end" required />
+
+        <input type="number" id="budget" placeholder="Budget" required />
+        <br>
+        <!-- <textarea id="notes" placeholder="Notes"></textarea> -->
+         <textarea id="notes" placeholder="Notes (e.g., reminders, special plans)"></textarea>
+        <br> <br>
+        <button type="submit">Add Trip</button>
+      </form>
+    </section>
+
+    <!-- Trip List -->
+    <section id="trip-list-section">
+      <h3>Your Trips</h3>
+      <div id="tripList"></div>
+    </section>
+  </main>
+
+  <!-- <footer>© 2025 Harinath Reddy</footer> -->
+
+  <script src="app.js"></script>
+</body>
+</html>
