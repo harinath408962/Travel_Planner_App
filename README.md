@@ -7,15 +7,11 @@ Users can add destinations, manage budgets, track weather, and view maps — all
 
 🎯 Key Objectives
 
-Develop a complete full-stack web app using React, Node.js, Express & MongoDB
-
-Enable CRUD operations for trip planning
-
-Integrate Weather (OpenWeather API) and Map (Google Maps API)
-
-Provide user authentication and personalized dashboards
-
-Deliver a responsive, API-integrated, deployable system
+1. Develop a complete full-stack web app using React, Node.js, Express & MongoDB
+2. Enable CRUD operations for trip planning
+3. Integrate Weather (OpenWeather API) and Map (Google Maps API)
+4. Provide user authentication and personalized dashboards
+5. Deliver a responsive, API-integrated, deployable system
 
 🚀 Features (Highlights)
 
