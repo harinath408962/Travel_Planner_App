@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Smart Travel Planner - Add Trip</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">Travel Planner App</h1>
+  </header>
+
+  <main class="center-area">
+    <div class="card form-card" aria-live="polite">
+      <h2 class="card-title"><b>Add New Trip</b></h2>
+
+      <form id="tripForm" class="form">
+        <input id="destination" type="text" placeholder="Destination" required />
+        <input id="startDate" type="date" required />
+        <input id="endDate" type="date" required />
+        <input id="budget" type="number" placeholder="Budget (₹)" min="0" required />
+        <textarea id="notes" placeholder="Events planned (optional)"></textarea>
+
+        <button type="submit" class="btn primary">Add Trip</button>
+        <button type="button" class="btn secondary" id="goDashboard">Dashboard</button>
+        <button type="button" class="btn secondary" id="goSaved">Saved Trips</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- bottom fixed bar (email + small red action button) -->
+  <div id="bottomBar" class="bottom-bar">
+    <div id="bottomEmail" class="bottom-email"></div>
+    <button id="bottomAction" class="btn red small-btn">Logout</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
