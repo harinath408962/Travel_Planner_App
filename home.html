@@ -17,8 +17,17 @@
 
       <form id="tripForm" class="form">
         <input id="destination" type="text" placeholder="Destination" required />
-        <input id="startDate" type="date" placeholder="Start Date" required />
-        <input id="endDate" type="date" placeholder="End Date" required />
+        <p style="font-family: bookman; font-size: 130%; color:brown; display:flex; align-items:center; justify-content:space-between;">
+  <b>Start Date :</b>
+  <input id="startDate" type="date" required style="width:215px;">
+</p>
+
+<p style="font-family: bookman; font-size: 130%; color:brown; display:flex; align-items:center; justify-content:space-between;">
+  <b>End Date :</b>
+  <input id="endDate" type="date" required style="width:215px;">
+</p>
+
+        
         <input id="budget" type="number" placeholder="Budget (₹)" min="0" required />
         <textarea id="notes" placeholder="Events planned (optional)"></textarea>
 
